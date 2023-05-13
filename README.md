@@ -2,6 +2,14 @@
 
 Easily install and run Open AI's shape-e model
 
+## Requirements
+
+- Linux
+- MacOS
+- Windows use with WSL (windows subsystem for linux)
+
+It is recommended to run this on a machine with a recent Nvidia GPU for maximum performance
+
 ## Installing
 
 ```bash
