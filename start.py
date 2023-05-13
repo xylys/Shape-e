@@ -62,8 +62,8 @@ def createModel():
         t = decode_latent_mesh(xm, latent).tri_mesh()
         filenamePLY = f'{path}/{prompt.replace(" ", "_")}_GS{guidance_scale}_{uuid}_{i}.ply'
         filenameOBJ = f'{path}/{prompt.replace(" ", "_")}_GS{guidance_scale}_{uuid}_{i}.obj'
-        # with open(filenamePLY, 'wb') as f:
-        #     t.write_ply(f)
+        with open(filenamePLY, 'wb') as f:
+            t.write_ply(f)
         with open(filenameOBJ, 'w') as f:
             t.write_obj(f)
         print(f'Saved {filenamePLY}')
