@@ -36,5 +36,5 @@ conda activate shape-e
 To run the app:
 
 ```bash
-python3 start.py
+python start.py
 ```

@@ -112,6 +112,7 @@ dependencies:
   - zstd=1.5.5=hc292b87_0
   - pip:
       - setuptools==67.7.2
+      - ipywidgets==8.0.6
       - mpmath==1.2.1
       - pyparsing==3.0.9
       - shortuuid==1.0.11

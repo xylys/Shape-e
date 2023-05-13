@@ -12,6 +12,8 @@ bash Miniconda3-latest-Linux-x86_64.sh
 
 rm Miniconda3-latest-Linux-x86_64.sh
 
+source ~/.bashrc
+
 conda remove --name shape-e --all
 conda env create -f ./env/environment.yml
 
